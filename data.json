@@ -119,10 +119,10 @@
         }
     ],
     "images": [
-        "assets/dental_clinic_3.jpg",
-        "assets/dental_clinic_0.jpg",
         "assets/dental_clinic_1.jpg",
-        "assets/dental_clinic_2.jpg"
+        "assets/dental_clinic_0.jpg",
+        "assets/dental_clinic_2.jpg",
+        "assets/dental_clinic_3.jpg"
     ],
     "color_theme": "steel-blue",
     "map_url": "https://maps.app.goo.gl/oanyhhqwKP5CWRiPA"

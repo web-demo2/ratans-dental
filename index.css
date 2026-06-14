@@ -294,12 +294,14 @@ a {
 
 .service-card {
     background-color: var(--bg-card);
-    border: 1px solid var(--border-color);
+    border: 1px solid rgba(255, 255, 255, 0.1);
     padding: 40px;
     border-radius: var(--border-radius);
     transition: var(--transition);
     position: relative;
     overflow: hidden;
+    backdrop-filter: blur(10px);
+    box-shadow: var(--shadow-sm);
 }
 
 .service-card::after {
@@ -390,11 +392,11 @@ a {
 }
 
 .gallery-img {
-    height: 200px;
+    height: 250px;
     background-size: cover;
     background-position: center;
     border-radius: var(--border-radius);
-    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    box-shadow: var(--shadow-sm);
     transition: var(--transition);
 }
 

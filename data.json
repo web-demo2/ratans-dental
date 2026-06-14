@@ -1,0 +1,129 @@
+{
+    "name": "Ratan's Dental",
+    "phone": "+880 1977-728267",
+    "address": "6th floor, Navana Tower, Bir Uttam AK Khandakar Rd, Dhaka 1212, Bangladesh",
+    "city": "Dhaka",
+    "rating": 4,
+    "reviews": [
+        {
+            "name": "rean anam",
+            "text": "They charge a ridiculous amount for even a simple tooth filling",
+            "rating": 1,
+            "date": "7 months ago",
+            "photo_url": "",
+            "photo_path": "https://api.dicebear.com/7.x/adventurer/svg?seed=rean anam"
+        },
+        {
+            "name": "Md.Zahidul Islam",
+            "text": null,
+            "rating": 5,
+            "date": "11 months ago",
+            "photo_url": "",
+            "photo_path": "https://api.dicebear.com/7.x/adventurer/svg?seed=Md.Zahidul Islam"
+        },
+        {
+            "name": "Johirul Islam",
+            "text": null,
+            "rating": 5,
+            "date": "a year ago",
+            "photo_url": "",
+            "photo_path": "https://api.dicebear.com/7.x/adventurer/svg?seed=Johirul Islam"
+        },
+        {
+            "name": "Sunnah",
+            "text": "Dedicated team members, world class treatment is available here.",
+            "rating": 5,
+            "date": "2 years ago",
+            "photo_url": "",
+            "photo_path": "https://api.dicebear.com/7.x/adventurer/svg?seed=Sunnah"
+        },
+        {
+            "name": "shahriar chowdhury",
+            "text": "One of the most horrifying experience I have ever come across. They took off my daughter's tooth without an anesthetia. They suck",
+            "rating": 1,
+            "date": "2 years ago",
+            "photo_url": "",
+            "photo_path": "https://api.dicebear.com/7.x/adventurer/svg?seed=shahriar chowdhury"
+        },
+        {
+            "name": "Tariqule",
+            "text": "One of the best dental clinic in dhaka",
+            "rating": 5,
+            "date": "2 years ago",
+            "photo_url": "",
+            "photo_path": "https://api.dicebear.com/7.x/adventurer/svg?seed=Tariqule"
+        },
+        {
+            "name": "Maswud Live",
+            "text": "A highly skilled team of dental surgeons and technicians have been practicing at Ratan’s Dental to ensure the most advanced and long lasting dental services. Ratan’s Dental has always prioritized modern dental practices and strives to keep updated with the latest dental technologies and treatments. Another very important aspect of this chamber is, it ensures high quality dental materials and equipment.",
+            "rating": 3,
+            "date": "2 years ago",
+            "photo_url": "",
+            "photo_path": "https://api.dicebear.com/7.x/adventurer/svg?seed=Maswud Live"
+        },
+        {
+            "name": "Kafsat Taius",
+            "text": "I had a terrible experience at Ratans Dental. Three years ago, I went in for a toothache and they recommended a root canal and a cap. They charged me a ridiculous amount of money for the treatment. But just recently, I started experiencing pain in the same tooth. When I went to a different dental clinic, they found out that Ratans Dental had only put a cap on my tooth without performing the root canal! I am extremely disappointed and outraged that they would take advantage of me like this. Ratans Dental is a complete scam and I urge everyone to stay away from them. They charge high prices without providing proper treatment. Don't waste your time or money at Ratans Dental.",
+            "rating": 1,
+            "date": "3 years ago",
+            "photo_url": "",
+            "photo_path": "https://api.dicebear.com/7.x/adventurer/svg?seed=Kafsat Taius"
+        },
+        {
+            "name": "Abdullah Kafi",
+            "text": "one of the best & renowned dental clinic in dhaka city",
+            "rating": 5,
+            "date": "3 years ago",
+            "photo_url": "",
+            "photo_path": "https://api.dicebear.com/7.x/adventurer/svg?seed=Abdullah Kafi"
+        },
+        {
+            "name": "Shanaka Maharamba",
+            "text": "It is the ideal place to visit for the treatments. Very kind and friendly staff and I am completely satisfy with the service .",
+            "rating": 5,
+            "date": "4 years ago",
+            "photo_url": "",
+            "photo_path": "https://api.dicebear.com/7.x/adventurer/svg?seed=Shanaka Maharamba"
+        },
+        {
+            "name": "Didarul Islam",
+            "text": "good",
+            "rating": 5,
+            "date": "5 years ago",
+            "photo_url": "",
+            "photo_path": "https://api.dicebear.com/7.x/adventurer/svg?seed=Didarul Islam"
+        },
+        {
+            "name": "ETERNAL GAMING",
+            "text": null,
+            "rating": 5,
+            "date": "5 years ago",
+            "photo_url": "",
+            "photo_path": "https://api.dicebear.com/7.x/adventurer/svg?seed=ETERNAL GAMING"
+        },
+        {
+            "name": "KM Razon",
+            "text": null,
+            "rating": 5,
+            "date": "6 years ago",
+            "photo_url": "",
+            "photo_path": "https://api.dicebear.com/7.x/adventurer/svg?seed=KM Razon"
+        },
+        {
+            "name": "Mpsujon Sarker",
+            "text": null,
+            "rating": 5,
+            "date": "6 years ago",
+            "photo_url": "",
+            "photo_path": "https://api.dicebear.com/7.x/adventurer/svg?seed=Mpsujon Sarker"
+        }
+    ],
+    "images": [
+        "assets/dental_clinic_0.jpg",
+        "assets/dental_clinic_1.jpg",
+        "assets/dental_clinic_2.jpg",
+        "assets/dental_clinic_3.jpg"
+    ],
+    "color_theme": "steel-blue",
+    "map_url": "https://maps.app.goo.gl/oanyhhqwKP5CWRiPA"
+}

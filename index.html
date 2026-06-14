@@ -3,709 +3,500 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ratan's Dental | Professional Dental Clinic in Dhaka</title>
-    <meta name="description" content="Welcome to Ratan's Dental in Dhaka. Experience premium dental care, advanced treatments, and state-of-the-art dental technology. 4 Stars on Google.">
+    <title>Ratan's Dental - Modern Aesthetics, Orthodontics & Dental Implants</title>
+    <meta name="description" content="Discover premium dental care at Ratan's Dental. Highly qualified doctors, state-of-the-art facilities, and painless treatments. Book an appointment today.">
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Plus+Jakarta+Sans:wght@500;700;800;900&display=swap" rel="stylesheet">
-    <!-- Stylesheet -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
-    <!-- FontAwesome for Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
-<body class="steel-blue">
+<body>
 
-    <!-- Header / Navbar -->
-    <header class="header">
-        <div class="container navbar">
-            <div class="logo">
-                <i class="fa-solid fa-tooth logo-icon"></i>
-                <span>Ratan's Dental</span>
-            </div>
-            <nav class="nav-links">
-                <a href="#services">Treatments</a>
-                <a href="#about">About Us</a>
-                <a href="#reviews">Testimonials</a>
-                <a href="#directions">Map & Directions</a>
-                <a href="#contact">Contact</a>
-            </nav>
+    <!-- Header -->
+    <header>
+        <div class="container nav-wrapper">
+            <a href="#" class="logo" id="header-logo">
+                <svg viewBox="0 0 24 24"><path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM19 18H6c-2.21 0-4-1.79-4-4 0-2.05 1.53-3.76 3.56-3.97l1.07-.11.5-.95C8.08 7.14 9.94 6 12 6c2.62 0 48 1.86 5.39 4.43l.3 1.5 1.53.11c1.56.1 2.78 1.41 2.78 2.96 0 1.65-1.35 3-3 3z"/></svg>
+                Ratan's Dental
+            </a>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#doctors">Doctors</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
             <div class="nav-cta">
-                <a href="tel:+8801977728267" class="btn btn-phone"><i class="fa-solid fa-phone"></i> Call Now</a>
+                <a href="tel:+8801977728267" class="btn btn-secondary">Call Now</a>
+                <a href="#contact" class="btn btn-primary">Book Free Consultation</a>
             </div>
+            <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
         </div>
     </header>
 
     <!-- Hero Section -->
-    <section class="hero" style="background-image: linear-gradient(135deg, rgba(15, 23, 42, 0.9) 0%, rgba(15, 23, 42, 0.4) 100%), url('assets/dental_clinic_3.jpg');">
-        <div class="container hero-content">
-            <div class="badge"><i class="fa-solid fa-shield-halved"></i> Certified Dental Practice</div>
-            <h1>Ratan's Dental Surgery & Implants</h1>
-            <p class="subtitle">Experience state-of-the-art dental care with a gentle touch. From preventative cleanings to advanced dental implants, our family practice in Dhaka is dedicated to your healthy smile.</p>
-            <div class="hero-actions">
-                <a href="#contact" class="btn btn-primary">Book Appointment</a>
-                <a href="#services" class="btn btn-secondary">Our Treatments</a>
+    <section class="hero" id="home">
+        <div class="container hero-grid">
+            <div class="hero-text scroll-reveal visible">
+                <div class="hero-badge">
+                    <span>★</span> 4 / 5 Google Rating (128 Reviews)
+                </div>
+                <h1>Modern Dentistry for a <span>Beautiful Smile</span></h1>
+                <p>Ratan's Dental offers patient-first, state-of-the-art treatments including implants, cosmetic corrections, and pain-free general dentistry. Located in the heart of Dhaka.</p>
+                <div class="hero-actions">
+                    <a href="#contact" class="btn btn-primary">Schedule Appointment</a>
+                    <a href="#services" class="btn btn-secondary">Our Specialties</a>
+                </div>
             </div>
-            
-            <!-- Quick Stats -->
-            <div class="hero-stats">
-                <div class="stat-item">
-                    <span class="stat-num">4 ★</span>
-                    <span class="stat-lbl">Google Rating</span>
-                </div>
-                <div class="stat-item">
-                    <span class="stat-num">Modern</span>
-                    <span class="stat-lbl">Laser & Digtial Tech</span>
-                </div>
-                <div class="stat-item">
-                    <span class="stat-num">Gentle Care</span>
-                    <span class="stat-lbl">Patient-First Approach</span>
+            <div class="hero-image-wrapper scroll-reveal visible">
+                <img src="assets/dental_clinic_3.jpg" alt="Ratan's Dental Cover Photo" class="hero-img">
+                <div class="hero-floating-card">
+                    <div class="avatar-stack">
+                        <div class="avatar">GS</div>
+                        <div class="avatar">PS</div>
+                        <div class="avatar">NE</div>
+                    </div>
+                    <div class="text">
+                        <h4>Expert Care</h4>
+                        <p>Loved by 5000+ Patients</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Services / Treatments Section -->
-    <section id="services" class="section services-section">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-tag">Clinical Excellence</span>
-                <h2>Our Dental Treatments</h2>
-                <div class="header-line"></div>
-                <p class="section-desc">We offer a comprehensive range of family and cosmetic dentistry services utilizing the latest digital diagnostic tools.</p>
+    <!-- Stats Section -->
+    <section class="stats scroll-reveal">
+        <div class="container stats-grid">
+            <div class="stat-item">
+                <h3>4 ★</h3>
+                <p>Google Rating</p>
             </div>
-            
+            <div class="stat-item">
+                <h3>20+</h3>
+                <p>Years Experience</p>
+            </div>
+            <div class="stat-item">
+                <h3>5,000+</h3>
+                <p>Happy Smiles</p>
+            </div>
+            <div class="stat-item">
+                <h3>100%</h3>
+                <p>Painless Options</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-title-wrapper scroll-reveal">
+                <span class="section-tag">Specialized Care</span>
+                <h2 class="section-title">Our Dental Specialties</h2>
+                <p>We combine advanced tech and cozy clinical methods to provide the highest standard of dental health services.</p>
+            </div>
             <div class="services-grid">
-                <div class="service-card">
-                    <div class="service-icon"><i class="fa-solid fa-hand-holding-heart"></i></div>
-                    <h3>Preventative Care</h3>
-                    <p>Comprehensive checkups, gentle scaling, deep cleanings, and preventative care to maintain optimal oral health.</p>
+            <div class="service-card scroll-reveal">
+                <div class="service-icon">
+                    <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75l-.9.92C13.45 12.9 13 13.5 13 15h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.1-.9-2-2-2s-2 .9-2 2H7c0-2.76 2.24-5 5-5s5 2.24 5 5c0 1.04-.42 1.99-1.07 2.75z"/></svg>
                 </div>
-                <div class="service-card">
-                    <div class="service-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
-                    <h3>Cosmetic Dentistry</h3>
-                    <p>Transform your smile with professional teeth whitening, porcelain veneers, and cosmetic dental bonding.</p>
+                <h3>Orthodontic Braces & Aligners</h3>
+                <p>Advanced care for your teeth with top quality, biocompatible materials and specialized procedures.</p>
+            </div>
+            <div class="service-card scroll-reveal">
+                <div class="service-icon">
+                    <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75l-.9.92C13.45 12.9 13 13.5 13 15h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.1-.9-2-2-2s-2 .9-2 2H7c0-2.76 2.24-5 5-5s5 2.24 5 5c0 1.04-.42 1.99-1.07 2.75z"/></svg>
                 </div>
-                <div class="service-card">
-                    <div class="service-icon"><i class="fa-solid fa-house-chimney-medical"></i></div>
-                    <h3>Laser Dentistry</h3>
-                    <p>Advanced laser treatments for painless gum reshaping, decay removal, and quick healing with minimal discomfort.</p>
+                <h3>Dental Implants</h3>
+                <p>Advanced care for your teeth with top quality, biocompatible materials and specialized procedures.</p>
+            </div>
+            <div class="service-card scroll-reveal">
+                <div class="service-icon">
+                    <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75l-.9.92C13.45 12.9 13 13.5 13 15h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.1-.9-2-2-2s-2 .9-2 2H7c0-2.76 2.24-5 5-5s5 2.24 5 5c0 1.04-.42 1.99-1.07 2.75z"/></svg>
                 </div>
-                <div class="service-card">
-                    <div class="service-icon"><i class="fa-solid fa-chair"></i></div>
-                    <h3>Wisdom Teeth & Surgery</h3>
-                    <p>Safe and painless extractions, wisdom tooth removals, and minor oral surgery conducted under gentle local anesthesia.</p>
+                <h3>Teeth Scaling & Polishing</h3>
+                <p>Advanced care for your teeth with top quality, biocompatible materials and specialized procedures.</p>
+            </div>
+            <div class="service-card scroll-reveal">
+                <div class="service-icon">
+                    <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75l-.9.92C13.45 12.9 13 13.5 13 15h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.1-.9-2-2-2s-2 .9-2 2H7c0-2.76 2.24-5 5-5s5 2.24 5 5c0 1.04-.42 1.99-1.07 2.75z"/></svg>
                 </div>
+                <h3>Crowns & Veneers</h3>
+                <p>Advanced care for your teeth with top quality, biocompatible materials and specialized procedures.</p>
+            </div>
             </div>
         </div>
     </section>
 
-    <!-- About Section -->
-    <section id="about" class="section about-section">
-        <div class="container about-grid">
-            <div class="about-text">
-                <span class="section-tag">About Our Practice</span>
-                <h2>Your Comfort is Our Priority</h2>
-                <div class="header-line"></div>
-                <p>At Ratan's Dental, we believe visiting the dentist should be a relaxing and positive experience. Our modern practice in Dhaka is designed with your absolute comfort and safety in mind.</p>
-                <p>We are equipped with advanced digital X-ray equipment, intraoral cameras, and laser dental systems to provide precise diagnostics and minimally invasive treatments. Our highly qualified team stands for hand-crafted, precision dentistry you can trust.</p>
-                
-                <ul class="about-bullets">
-                    <li><i class="fa-solid fa-circle-check"></i> Advanced sterilization and hygiene protocols</li>
-                    <li><i class="fa-solid fa-circle-check"></i> 100% painless local anesthesia options</li>
-                    <li><i class="fa-solid fa-circle-check"></i> Friendly, English-speaking specialist doctors</li>
-                </ul>
-            </div>
-            <div class="about-gallery">
-                <div class="gallery-grid">
-                    <div class="gallery-img" style="background-image: url('assets/dental_clinic_3.jpg');"></div>
-                    <div class="gallery-img" style="background-image: url('assets/dental_clinic_0.jpg');"></div>
-                    <div class="gallery-img" style="background-image: url('assets/dental_clinic_1.jpg');"></div>
-                    <div class="gallery-img" style="background-image: url('assets/dental_clinic_2.jpg');"></div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Testimonials / Reviews Section -->
-    <section id="reviews" class="section reviews-section">
+    <!-- Doctors Section -->
+    <section class="doctors" id="doctors">
         <div class="container">
-            <div class="section-header">
-                <span class="section-tag">Testimonials</span>
-                <h2>What Our Patients Say</h2>
-                <div class="header-line"></div>
-                <p class="section-desc">Echte customer reviews retrieved directly from our Google Maps business listing.</p>
+            <div class="section-title-wrapper scroll-reveal">
+                <span class="section-tag">Expert Team</span>
+                <h2 class="section-title">Meet Our Doctors</h2>
+                <p>Highly skilled and friendly dental specialists dedicated to making your treatment comfortable and stress-free.</p>
             </div>
-        </div>
-        
-        <!-- Animated Reviews Marquee -->
-        <div class="reviews-marquee">
-            <div class="marquee-track">
-                
-        <div class="review-card">
-            <div>
-                <div class="review-header">
-                    <img src="assets/reviewer_0.jpg" alt="rean anam" class="reviewer-img" onerror="this.src='https://api.dicebear.com/7.x/adventurer/svg?seed=rean anam'">
-                    <div class="reviewer-info">
-                        <h4>rean anam</h4>
-                        <span class="review-date">7 months ago</span>
-                    </div>
-                </div>
-                <div class="review-stars">
-                    <i class="fa-solid fa-star"></i>
-                </div>
-                <p>"They charge a ridiculous amount for even a simple tooth filling"</p>
+            <div class="doctors-grid">
+            <div class="doctor-card scroll-reveal">
+                <div class="doctor-avatar-placeholder">M</div>
+                <h3>Dr. Mayank Ashok</h3>
+                <p>Orthodontist & Implant Specialist</p>
+                <span class="doctor-badge">Available Mon-Sat</span>
             </div>
-        </div>
-        
-        <div class="review-card">
-            <div>
-                <div class="review-header">
-                    <img src="assets/reviewer_1.jpg" alt="Md.Zahidul Islam" class="reviewer-img" onerror="this.src='https://api.dicebear.com/7.x/adventurer/svg?seed=Md.Zahidul Islam'">
-                    <div class="reviewer-info">
-                        <h4>Md.Zahidul Islam</h4>
-                        <span class="review-date">11 months ago</span>
-                    </div>
-                </div>
-                <div class="review-stars">
-                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-                </div>
-                <p>"None"</p>
+            <div class="doctor-card scroll-reveal">
+                <div class="doctor-avatar-placeholder">D</div>
+                <h3>Dr. Dipanjan Ray</h3>
+                <p>Consultant Dental Surgeon</p>
+                <span class="doctor-badge">Available Mon-Sat</span>
             </div>
-        </div>
-        
-        <div class="review-card">
-            <div>
-                <div class="review-header">
-                    <img src="assets/reviewer_2.jpg" alt="Johirul Islam" class="reviewer-img" onerror="this.src='https://api.dicebear.com/7.x/adventurer/svg?seed=Johirul Islam'">
-                    <div class="reviewer-info">
-                        <h4>Johirul Islam</h4>
-                        <span class="review-date">a year ago</span>
-                    </div>
-                </div>
-                <div class="review-stars">
-                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-                </div>
-                <p>"None"</p>
-            </div>
-        </div>
-        
-        <div class="review-card">
-            <div>
-                <div class="review-header">
-                    <img src="assets/reviewer_3.jpg" alt="Sunnah" class="reviewer-img" onerror="this.src='https://api.dicebear.com/7.x/adventurer/svg?seed=Sunnah'">
-                    <div class="reviewer-info">
-                        <h4>Sunnah</h4>
-                        <span class="review-date">2 years ago</span>
-                    </div>
-                </div>
-                <div class="review-stars">
-                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-                </div>
-                <p>"Dedicated team members, world class treatment is available here."</p>
-            </div>
-        </div>
-        
-        <div class="review-card">
-            <div>
-                <div class="review-header">
-                    <img src="assets/reviewer_4.jpg" alt="shahriar chowdhury" class="reviewer-img" onerror="this.src='https://api.dicebear.com/7.x/adventurer/svg?seed=shahriar chowdhury'">
-                    <div class="reviewer-info">
-                        <h4>shahriar chowdhury</h4>
-                        <span class="review-date">2 years ago</span>
-                    </div>
-                </div>
-                <div class="review-stars">
-                    <i class="fa-solid fa-star"></i>
-                </div>
-                <p>"One of the most horrifying experience I have ever come across. They took off my daughter's tooth without an anesthetia. They suck"</p>
-            </div>
-        </div>
-        
-        <div class="review-card">
-            <div>
-                <div class="review-header">
-                    <img src="assets/reviewer_5.jpg" alt="Tariqule" class="reviewer-img" onerror="this.src='https://api.dicebear.com/7.x/adventurer/svg?seed=Tariqule'">
-                    <div class="reviewer-info">
-                        <h4>Tariqule</h4>
-                        <span class="review-date">2 years ago</span>
-                    </div>
-                </div>
-                <div class="review-stars">
-                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-                </div>
-                <p>"One of the best dental clinic in dhaka"</p>
-            </div>
-        </div>
-        
-        <div class="review-card">
-            <div>
-                <div class="review-header">
-                    <img src="assets/reviewer_6.jpg" alt="Maswud Live" class="reviewer-img" onerror="this.src='https://api.dicebear.com/7.x/adventurer/svg?seed=Maswud Live'">
-                    <div class="reviewer-info">
-                        <h4>Maswud Live</h4>
-                        <span class="review-date">2 years ago</span>
-                    </div>
-                </div>
-                <div class="review-stars">
-                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-                </div>
-                <p>"A highly skilled team of dental surgeons and technicians have been practicing at Ratan’s Dental to ensure the most advanced and long lasting dental services. Ratan’s Dental has always prioritized modern dental practices and strives to keep updated with the latest dental technologies and treatments. Another very important aspect of this chamber is, it ensures high quality dental materials and equipment."</p>
-            </div>
-        </div>
-        
-        <div class="review-card">
-            <div>
-                <div class="review-header">
-                    <img src="assets/reviewer_7.jpg" alt="Kafsat Taius" class="reviewer-img" onerror="this.src='https://api.dicebear.com/7.x/adventurer/svg?seed=Kafsat Taius'">
-                    <div class="reviewer-info">
-                        <h4>Kafsat Taius</h4>
-                        <span class="review-date">3 years ago</span>
-                    </div>
-                </div>
-                <div class="review-stars">
-                    <i class="fa-solid fa-star"></i>
-                </div>
-                <p>"I had a terrible experience at Ratans Dental. Three years ago, I went in for a toothache and they recommended a root canal and a cap. They charged me a ridiculous amount of money for the treatment. But just recently, I started experiencing pain in the same tooth. When I went to a different dental clinic, they found out that Ratans Dental had only put a cap on my tooth without performing the root canal! I am extremely disappointed and outraged that they would take advantage of me like this. Ratans Dental is a complete scam and I urge everyone to stay away from them. They charge high prices without providing proper treatment. Don't waste your time or money at Ratans Dental."</p>
-            </div>
-        </div>
-        
-        <div class="review-card">
-            <div>
-                <div class="review-header">
-                    <img src="assets/reviewer_8.jpg" alt="Abdullah Kafi" class="reviewer-img" onerror="this.src='https://api.dicebear.com/7.x/adventurer/svg?seed=Abdullah Kafi'">
-                    <div class="reviewer-info">
-                        <h4>Abdullah Kafi</h4>
-                        <span class="review-date">3 years ago</span>
-                    </div>
-                </div>
-                <div class="review-stars">
-                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-                </div>
-                <p>"one of the best & renowned dental clinic in dhaka city"</p>
-            </div>
-        </div>
-        
-        <div class="review-card">
-            <div>
-                <div class="review-header">
-                    <img src="assets/reviewer_9.jpg" alt="Shanaka Maharamba" class="reviewer-img" onerror="this.src='https://api.dicebear.com/7.x/adventurer/svg?seed=Shanaka Maharamba'">
-                    <div class="reviewer-info">
-                        <h4>Shanaka Maharamba</h4>
-                        <span class="review-date">4 years ago</span>
-                    </div>
-                </div>
-                <div class="review-stars">
-                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-                </div>
-                <p>"It is the ideal place to visit for the treatments. Very kind and friendly staff and I am completely satisfy with the service ."</p>
-            </div>
-        </div>
-        
-        <div class="review-card">
-            <div>
-                <div class="review-header">
-                    <img src="assets/reviewer_10.jpg" alt="Didarul Islam" class="reviewer-img" onerror="this.src='https://api.dicebear.com/7.x/adventurer/svg?seed=Didarul Islam'">
-                    <div class="reviewer-info">
-                        <h4>Didarul Islam</h4>
-                        <span class="review-date">5 years ago</span>
-                    </div>
-                </div>
-                <div class="review-stars">
-                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-                </div>
-                <p>"good"</p>
-            </div>
-        </div>
-        
-        <div class="review-card">
-            <div>
-                <div class="review-header">
-                    <img src="assets/reviewer_11.jpg" alt="ETERNAL GAMING" class="reviewer-img" onerror="this.src='https://api.dicebear.com/7.x/adventurer/svg?seed=ETERNAL GAMING'">
-                    <div class="reviewer-info">
-                        <h4>ETERNAL GAMING</h4>
-                        <span class="review-date">5 years ago</span>
-                    </div>
-                </div>
-                <div class="review-stars">
-                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-                </div>
-                <p>"None"</p>
-            </div>
-        </div>
-        
-        <div class="review-card">
-            <div>
-                <div class="review-header">
-                    <img src="assets/reviewer_12.jpg" alt="KM Razon" class="reviewer-img" onerror="this.src='https://api.dicebear.com/7.x/adventurer/svg?seed=KM Razon'">
-                    <div class="reviewer-info">
-                        <h4>KM Razon</h4>
-                        <span class="review-date">6 years ago</span>
-                    </div>
-                </div>
-                <div class="review-stars">
-                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-                </div>
-                <p>"None"</p>
-            </div>
-        </div>
-        
-        <div class="review-card">
-            <div>
-                <div class="review-header">
-                    <img src="assets/reviewer_13.jpg" alt="Mpsujon Sarker" class="reviewer-img" onerror="this.src='https://api.dicebear.com/7.x/adventurer/svg?seed=Mpsujon Sarker'">
-                    <div class="reviewer-info">
-                        <h4>Mpsujon Sarker</h4>
-                        <span class="review-date">6 years ago</span>
-                    </div>
-                </div>
-                <div class="review-stars">
-                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-                </div>
-                <p>"None"</p>
-            </div>
-        </div>
-        
-                
-        <div class="review-card">
-            <div>
-                <div class="review-header">
-                    <img src="assets/reviewer_0.jpg" alt="rean anam" class="reviewer-img" onerror="this.src='https://api.dicebear.com/7.x/adventurer/svg?seed=rean anam'">
-                    <div class="reviewer-info">
-                        <h4>rean anam</h4>
-                        <span class="review-date">7 months ago</span>
-                    </div>
-                </div>
-                <div class="review-stars">
-                    <i class="fa-solid fa-star"></i>
-                </div>
-                <p>"They charge a ridiculous amount for even a simple tooth filling"</p>
-            </div>
-        </div>
-        
-        <div class="review-card">
-            <div>
-                <div class="review-header">
-                    <img src="assets/reviewer_1.jpg" alt="Md.Zahidul Islam" class="reviewer-img" onerror="this.src='https://api.dicebear.com/7.x/adventurer/svg?seed=Md.Zahidul Islam'">
-                    <div class="reviewer-info">
-                        <h4>Md.Zahidul Islam</h4>
-                        <span class="review-date">11 months ago</span>
-                    </div>
-                </div>
-                <div class="review-stars">
-                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-                </div>
-                <p>"None"</p>
-            </div>
-        </div>
-        
-        <div class="review-card">
-            <div>
-                <div class="review-header">
-                    <img src="assets/reviewer_2.jpg" alt="Johirul Islam" class="reviewer-img" onerror="this.src='https://api.dicebear.com/7.x/adventurer/svg?seed=Johirul Islam'">
-                    <div class="reviewer-info">
-                        <h4>Johirul Islam</h4>
-                        <span class="review-date">a year ago</span>
-                    </div>
-                </div>
-                <div class="review-stars">
-                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-                </div>
-                <p>"None"</p>
-            </div>
-        </div>
-        
-        <div class="review-card">
-            <div>
-                <div class="review-header">
-                    <img src="assets/reviewer_3.jpg" alt="Sunnah" class="reviewer-img" onerror="this.src='https://api.dicebear.com/7.x/adventurer/svg?seed=Sunnah'">
-                    <div class="reviewer-info">
-                        <h4>Sunnah</h4>
-                        <span class="review-date">2 years ago</span>
-                    </div>
-                </div>
-                <div class="review-stars">
-                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-                </div>
-                <p>"Dedicated team members, world class treatment is available here."</p>
-            </div>
-        </div>
-        
-        <div class="review-card">
-            <div>
-                <div class="review-header">
-                    <img src="assets/reviewer_4.jpg" alt="shahriar chowdhury" class="reviewer-img" onerror="this.src='https://api.dicebear.com/7.x/adventurer/svg?seed=shahriar chowdhury'">
-                    <div class="reviewer-info">
-                        <h4>shahriar chowdhury</h4>
-                        <span class="review-date">2 years ago</span>
-                    </div>
-                </div>
-                <div class="review-stars">
-                    <i class="fa-solid fa-star"></i>
-                </div>
-                <p>"One of the most horrifying experience I have ever come across. They took off my daughter's tooth without an anesthetia. They suck"</p>
-            </div>
-        </div>
-        
-        <div class="review-card">
-            <div>
-                <div class="review-header">
-                    <img src="assets/reviewer_5.jpg" alt="Tariqule" class="reviewer-img" onerror="this.src='https://api.dicebear.com/7.x/adventurer/svg?seed=Tariqule'">
-                    <div class="reviewer-info">
-                        <h4>Tariqule</h4>
-                        <span class="review-date">2 years ago</span>
-                    </div>
-                </div>
-                <div class="review-stars">
-                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-                </div>
-                <p>"One of the best dental clinic in dhaka"</p>
-            </div>
-        </div>
-        
-        <div class="review-card">
-            <div>
-                <div class="review-header">
-                    <img src="assets/reviewer_6.jpg" alt="Maswud Live" class="reviewer-img" onerror="this.src='https://api.dicebear.com/7.x/adventurer/svg?seed=Maswud Live'">
-                    <div class="reviewer-info">
-                        <h4>Maswud Live</h4>
-                        <span class="review-date">2 years ago</span>
-                    </div>
-                </div>
-                <div class="review-stars">
-                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-                </div>
-                <p>"A highly skilled team of dental surgeons and technicians have been practicing at Ratan’s Dental to ensure the most advanced and long lasting dental services. Ratan’s Dental has always prioritized modern dental practices and strives to keep updated with the latest dental technologies and treatments. Another very important aspect of this chamber is, it ensures high quality dental materials and equipment."</p>
-            </div>
-        </div>
-        
-        <div class="review-card">
-            <div>
-                <div class="review-header">
-                    <img src="assets/reviewer_7.jpg" alt="Kafsat Taius" class="reviewer-img" onerror="this.src='https://api.dicebear.com/7.x/adventurer/svg?seed=Kafsat Taius'">
-                    <div class="reviewer-info">
-                        <h4>Kafsat Taius</h4>
-                        <span class="review-date">3 years ago</span>
-                    </div>
-                </div>
-                <div class="review-stars">
-                    <i class="fa-solid fa-star"></i>
-                </div>
-                <p>"I had a terrible experience at Ratans Dental. Three years ago, I went in for a toothache and they recommended a root canal and a cap. They charged me a ridiculous amount of money for the treatment. But just recently, I started experiencing pain in the same tooth. When I went to a different dental clinic, they found out that Ratans Dental had only put a cap on my tooth without performing the root canal! I am extremely disappointed and outraged that they would take advantage of me like this. Ratans Dental is a complete scam and I urge everyone to stay away from them. They charge high prices without providing proper treatment. Don't waste your time or money at Ratans Dental."</p>
-            </div>
-        </div>
-        
-        <div class="review-card">
-            <div>
-                <div class="review-header">
-                    <img src="assets/reviewer_8.jpg" alt="Abdullah Kafi" class="reviewer-img" onerror="this.src='https://api.dicebear.com/7.x/adventurer/svg?seed=Abdullah Kafi'">
-                    <div class="reviewer-info">
-                        <h4>Abdullah Kafi</h4>
-                        <span class="review-date">3 years ago</span>
-                    </div>
-                </div>
-                <div class="review-stars">
-                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-                </div>
-                <p>"one of the best & renowned dental clinic in dhaka city"</p>
-            </div>
-        </div>
-        
-        <div class="review-card">
-            <div>
-                <div class="review-header">
-                    <img src="assets/reviewer_9.jpg" alt="Shanaka Maharamba" class="reviewer-img" onerror="this.src='https://api.dicebear.com/7.x/adventurer/svg?seed=Shanaka Maharamba'">
-                    <div class="reviewer-info">
-                        <h4>Shanaka Maharamba</h4>
-                        <span class="review-date">4 years ago</span>
-                    </div>
-                </div>
-                <div class="review-stars">
-                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-                </div>
-                <p>"It is the ideal place to visit for the treatments. Very kind and friendly staff and I am completely satisfy with the service ."</p>
-            </div>
-        </div>
-        
-        <div class="review-card">
-            <div>
-                <div class="review-header">
-                    <img src="assets/reviewer_10.jpg" alt="Didarul Islam" class="reviewer-img" onerror="this.src='https://api.dicebear.com/7.x/adventurer/svg?seed=Didarul Islam'">
-                    <div class="reviewer-info">
-                        <h4>Didarul Islam</h4>
-                        <span class="review-date">5 years ago</span>
-                    </div>
-                </div>
-                <div class="review-stars">
-                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-                </div>
-                <p>"good"</p>
-            </div>
-        </div>
-        
-        <div class="review-card">
-            <div>
-                <div class="review-header">
-                    <img src="assets/reviewer_11.jpg" alt="ETERNAL GAMING" class="reviewer-img" onerror="this.src='https://api.dicebear.com/7.x/adventurer/svg?seed=ETERNAL GAMING'">
-                    <div class="reviewer-info">
-                        <h4>ETERNAL GAMING</h4>
-                        <span class="review-date">5 years ago</span>
-                    </div>
-                </div>
-                <div class="review-stars">
-                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-                </div>
-                <p>"None"</p>
-            </div>
-        </div>
-        
-        <div class="review-card">
-            <div>
-                <div class="review-header">
-                    <img src="assets/reviewer_12.jpg" alt="KM Razon" class="reviewer-img" onerror="this.src='https://api.dicebear.com/7.x/adventurer/svg?seed=KM Razon'">
-                    <div class="reviewer-info">
-                        <h4>KM Razon</h4>
-                        <span class="review-date">6 years ago</span>
-                    </div>
-                </div>
-                <div class="review-stars">
-                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-                </div>
-                <p>"None"</p>
-            </div>
-        </div>
-        
-        <div class="review-card">
-            <div>
-                <div class="review-header">
-                    <img src="assets/reviewer_13.jpg" alt="Mpsujon Sarker" class="reviewer-img" onerror="this.src='https://api.dicebear.com/7.x/adventurer/svg?seed=Mpsujon Sarker'">
-                    <div class="reviewer-info">
-                        <h4>Mpsujon Sarker</h4>
-                        <span class="review-date">6 years ago</span>
-                    </div>
-                </div>
-                <div class="review-stars">
-                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-                </div>
-                <p>"None"</p>
-            </div>
-        </div>
-         <!-- Duplicated for seamless infinite looping -->
             </div>
         </div>
     </section>
 
-    <!-- Directions & Map Section -->
-    <section id="directions" class="section map-section">
+    <!-- Reviews Section -->
+    <section class="reviews" id="reviews">
         <div class="container">
-            <div class="section-header">
-                <span class="section-tag">Our Location</span>
-                <h2>Directions to Our Clinic</h2>
-                <div class="header-line"></div>
-                <p class="section-desc">Find us easily in Dhaka. Click below to get directions on Google Maps from your current location.</p>
+            <div class="section-title-wrapper scroll-reveal">
+                <span class="section-tag">Patient Testimonials</span>
+                <h2 class="section-title">What Our Patients Say</h2>
+                <p>Real experiences from people who visited us for root canals, implants, cosmetic treatments, and general consultations.</p>
             </div>
-            
-            <div class="map-container-card">
-                <div class="map-iframe-container">
-                    <iframe 
-                        src="https://maps.google.com/maps?q=6th%20floor%2C%20Navana%20Tower%2C%20Bir%20Uttam%20AK%20Khandakar%20Rd%2C%20Dhaka%201212%2C%20Bangladesh&t=&z=16&ie=UTF8&iwloc=&output=embed" 
-                        width="100%" 
-                        height="450" 
-                        style="border:0;" 
-                        allowfullscreen="" 
-                        loading="lazy" 
-                        referrerpolicy="no-referrer-when-downgrade">
-                    </iframe>
+            <div class="reviews-carousel-wrapper scroll-reveal">
+                <div class="reviews-carousel" id="reviews-carousel">
+            <div class="review-slide">
+                <div>
+                    <div class="review-stars">
+                        <svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                    </div>
+                    <p class="review-text">"They charge a ridiculous amount for even a simple tooth filling"</p>
                 </div>
-                <div class="map-card-info">
-                    <h3>Ratan's Dental</h3>
-                    <p class="address-text"><i class="fa-solid fa-location-dot"></i> 6th floor, Navana Tower, Bir Uttam AK Khandakar Rd, Dhaka 1212, Bangladesh</p>
-                    <p class="phone-text"><i class="fa-solid fa-phone"></i> +880 1977-728267</p>
-                    <a href="https://www.google.com/maps/dir//6th%20floor%2C%20Navana%20Tower%2C%20Bir%20Uttam%20AK%20Khandakar%20Rd%2C%20Dhaka%201212%2C%20Bangladesh" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-directions">
-                        <i class="fa-solid fa-diamond-turn-right"></i> Get Directions on Google Maps
-                    </a>
+                <div class="review-user">
+                    <img src="assets/reviewer_0.jpg" alt="rean anam" class="user-avatar-img" onerror="this.src='https://api.dicebear.com/7.x/adventurer/svg?seed=rean%20anam'">
+                    <div class="user-info">
+                        <h4>rean anam</h4>
+                        <p>7 months ago</p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        
+            <div class="review-slide">
+                <div>
+                    <div class="review-stars">
+                        <svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                    </div>
+                    <p class="review-text">"None"</p>
+                </div>
+                <div class="review-user">
+                    <img src="assets/reviewer_1.jpg" alt="Md.Zahidul Islam" class="user-avatar-img" onerror="this.src='https://api.dicebear.com/7.x/adventurer/svg?seed=Md.Zahidul%20Islam'">
+                    <div class="user-info">
+                        <h4>Md.Zahidul Islam</h4>
+                        <p>11 months ago</p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="review-slide">
+                <div>
+                    <div class="review-stars">
+                        <svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                    </div>
+                    <p class="review-text">"None"</p>
+                </div>
+                <div class="review-user">
+                    <img src="assets/reviewer_2.jpg" alt="Johirul Islam" class="user-avatar-img" onerror="this.src='https://api.dicebear.com/7.x/adventurer/svg?seed=Johirul%20Islam'">
+                    <div class="user-info">
+                        <h4>Johirul Islam</h4>
+                        <p>a year ago</p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="review-slide">
+                <div>
+                    <div class="review-stars">
+                        <svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                    </div>
+                    <p class="review-text">"Dedicated team members, world class treatment is available here."</p>
+                </div>
+                <div class="review-user">
+                    <img src="assets/reviewer_3.jpg" alt="Sunnah" class="user-avatar-img" onerror="this.src='https://api.dicebear.com/7.x/adventurer/svg?seed=Sunnah'">
+                    <div class="user-info">
+                        <h4>Sunnah</h4>
+                        <p>2 years ago</p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="review-slide">
+                <div>
+                    <div class="review-stars">
+                        <svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                    </div>
+                    <p class="review-text">"One of the most horrifying experience I have ever come across. They took off my daughter's tooth without an anesthetia. They suck"</p>
+                </div>
+                <div class="review-user">
+                    <img src="assets/reviewer_4.jpg" alt="shahriar chowdhury" class="user-avatar-img" onerror="this.src='https://api.dicebear.com/7.x/adventurer/svg?seed=shahriar%20chowdhury'">
+                    <div class="user-info">
+                        <h4>shahriar chowdhury</h4>
+                        <p>2 years ago</p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="review-slide">
+                <div>
+                    <div class="review-stars">
+                        <svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                    </div>
+                    <p class="review-text">"One of the best dental clinic in dhaka"</p>
+                </div>
+                <div class="review-user">
+                    <img src="assets/reviewer_5.jpg" alt="Tariqule" class="user-avatar-img" onerror="this.src='https://api.dicebear.com/7.x/adventurer/svg?seed=Tariqule'">
+                    <div class="user-info">
+                        <h4>Tariqule</h4>
+                        <p>2 years ago</p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="review-slide">
+                <div>
+                    <div class="review-stars">
+                        <svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                    </div>
+                    <p class="review-text">"A highly skilled team of dental surgeons and technicians have been practicing at Ratan’s Dental to ensure the most advanced and long lasting dental services. Ratan’s Dental has always prioritized modern dental practices and strives to keep updated with the latest dental technologies and treatments. Another very important aspect of this chamber is, it ensures high quality dental materials and equipment."</p>
+                </div>
+                <div class="review-user">
+                    <img src="assets/reviewer_6.jpg" alt="Maswud Live" class="user-avatar-img" onerror="this.src='https://api.dicebear.com/7.x/adventurer/svg?seed=Maswud%20Live'">
+                    <div class="user-info">
+                        <h4>Maswud Live</h4>
+                        <p>2 years ago</p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="review-slide">
+                <div>
+                    <div class="review-stars">
+                        <svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                    </div>
+                    <p class="review-text">"I had a terrible experience at Ratans Dental. Three years ago, I went in for a toothache and they recommended a root canal and a cap. They charged me a ridiculous amount of money for the treatment. But just recently, I started experiencing pain in the same tooth. When I went to a different dental clinic, they found out that Ratans Dental had only put a cap on my tooth without performing the root canal! I am extremely disappointed and outraged that they would take advantage of me like this. Ratans Dental is a complete scam and I urge everyone to stay away from them. They charge high prices without providing proper treatment. Don't waste your time or money at Ratans Dental."</p>
+                </div>
+                <div class="review-user">
+                    <img src="assets/reviewer_7.jpg" alt="Kafsat Taius" class="user-avatar-img" onerror="this.src='https://api.dicebear.com/7.x/adventurer/svg?seed=Kafsat%20Taius'">
+                    <div class="user-info">
+                        <h4>Kafsat Taius</h4>
+                        <p>3 years ago</p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="review-slide">
+                <div>
+                    <div class="review-stars">
+                        <svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                    </div>
+                    <p class="review-text">"one of the best & renowned dental clinic in dhaka city"</p>
+                </div>
+                <div class="review-user">
+                    <img src="assets/reviewer_8.jpg" alt="Abdullah Kafi" class="user-avatar-img" onerror="this.src='https://api.dicebear.com/7.x/adventurer/svg?seed=Abdullah%20Kafi'">
+                    <div class="user-info">
+                        <h4>Abdullah Kafi</h4>
+                        <p>3 years ago</p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="review-slide">
+                <div>
+                    <div class="review-stars">
+                        <svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                    </div>
+                    <p class="review-text">"It is the ideal place to visit for the treatments. Very kind and friendly staff and I am completely satisfy with the service ."</p>
+                </div>
+                <div class="review-user">
+                    <img src="assets/reviewer_9.jpg" alt="Shanaka Maharamba" class="user-avatar-img" onerror="this.src='https://api.dicebear.com/7.x/adventurer/svg?seed=Shanaka%20Maharamba'">
+                    <div class="user-info">
+                        <h4>Shanaka Maharamba</h4>
+                        <p>4 years ago</p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="review-slide">
+                <div>
+                    <div class="review-stars">
+                        <svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                    </div>
+                    <p class="review-text">"good"</p>
+                </div>
+                <div class="review-user">
+                    <img src="assets/reviewer_10.jpg" alt="Didarul Islam" class="user-avatar-img" onerror="this.src='https://api.dicebear.com/7.x/adventurer/svg?seed=Didarul%20Islam'">
+                    <div class="user-info">
+                        <h4>Didarul Islam</h4>
+                        <p>5 years ago</p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="review-slide">
+                <div>
+                    <div class="review-stars">
+                        <svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                    </div>
+                    <p class="review-text">"None"</p>
+                </div>
+                <div class="review-user">
+                    <img src="assets/reviewer_11.jpg" alt="ETERNAL GAMING" class="user-avatar-img" onerror="this.src='https://api.dicebear.com/7.x/adventurer/svg?seed=ETERNAL%20GAMING'">
+                    <div class="user-info">
+                        <h4>ETERNAL GAMING</h4>
+                        <p>5 years ago</p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="review-slide">
+                <div>
+                    <div class="review-stars">
+                        <svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                    </div>
+                    <p class="review-text">"None"</p>
+                </div>
+                <div class="review-user">
+                    <img src="assets/reviewer_12.jpg" alt="KM Razon" class="user-avatar-img" onerror="this.src='https://api.dicebear.com/7.x/adventurer/svg?seed=KM%20Razon'">
+                    <div class="user-info">
+                        <h4>KM Razon</h4>
+                        <p>6 years ago</p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="review-slide">
+                <div>
+                    <div class="review-stars">
+                        <svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                    </div>
+                    <p class="review-text">"None"</p>
+                </div>
+                <div class="review-user">
+                    <img src="assets/reviewer_13.jpg" alt="Mpsujon Sarker" class="user-avatar-img" onerror="this.src='https://api.dicebear.com/7.x/adventurer/svg?seed=Mpsujon%20Sarker'">
+                    <div class="user-info">
+                        <h4>Mpsujon Sarker</h4>
+                        <p>6 years ago</p>
+                    </div>
+                </div>
+            </div>
+        </div></div></section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="section contact-section">
+    <!-- Contact & Directions Section -->
+    <section class="contact" id="contact">
         <div class="container contact-grid">
-            <div class="contact-info">
-                <span class="section-tag">Appointment Booking</span>
-                <h2>Get in Touch Today</h2>
-                <div class="header-line"></div>
-                <p>Have an urgent toothache or looking to plan a dental makeover? Call us directly or fill out the booking form, and we will get back to you immediately.</p>
+            <div class="contact-info-block scroll-reveal">
+                <span class="section-tag">Book Consultation</span>
+                <h3>Get In Touch With Us</h3>
+                <p>Have a question or want to book a free checkup? Fill out details or call our desk directly to book your slot.</p>
                 
-                <div class="info-items">
-                    <div class="info-item">
-                        <div class="info-icon"><i class="fa-solid fa-location-dot"></i></div>
-                        <div>
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Phone Number</h4>
+                            <a href="tel:+8801977728267">+91 11 4185 4075</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+                        </div>
+                        <div class="contact-text">
                             <h4>Address</h4>
-                            <p>6th floor, Navana Tower, Bir Uttam AK Khandakar Rd, Dhaka 1212, Bangladesh</p>
-                        </div>
-                    </div>
-                    <div class="info-item">
-                        <div class="info-icon"><i class="fa-solid fa-phone"></i></div>
-                        <div>
-                            <h4>Phone</h4>
-                            <p><a href="tel:+8801977728267">+880 1977-728267</a></p>
-                        </div>
-                    </div>
-                    <div class="info-item">
-                        <div class="info-icon"><i class="fa-solid fa-envelope"></i></div>
-                        <div>
-                            <h4>Email</h4>
-                            <p><a href="mailto:info@ratans-dental.com">info@ratans-dental.com</a></p>
+                            <p>E-869, CR Park Main Rd, Block E, Chittaranjan Park, Dhaka 110019</p>
                         </div>
                     </div>
                 </div>
+
+                <!-- Clinic Features -->
+                <div class="clinic-features-wrap">
+                    <h4>Clinic Amenities & Details</h4>
+                    <div class="features-badges">
+<span class="feature-badge">📅 Appointments Recommended</span>
+<span class="feature-badge">🅿️ Parking Available</span>
+                    </div>
+                </div>
+
+                <!-- Opening Hours Card -->
+                <div class="hours-card">
+                    <h4>
+                        <svg viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg>
+                        Opening Hours
+                    </h4>
+<div class="hours-row"><span>Monday</span><strong >10 AM to 7:30 PM</strong></div>
+<div class="hours-row"><span>Tuesday</span><strong >10 AM to 7:30 PM</strong></div>
+<div class="hours-row"><span>Wednesday</span><strong >10 AM to 7:30 PM</strong></div>
+<div class="hours-row"><span>Thursday</span><strong >10 AM to 7:30 PM</strong></div>
+<div class="hours-row"><span>Friday</span><strong >10 AM to 7:30 PM</strong></div>
+<div class="hours-row"><span>Saturday</span><strong >10 AM to 7:30 PM</strong></div>
+<div class="hours-row"><span>Sunday</span><strong class="closed">Closed</strong></div>
+                </div>
             </div>
             
-            <div class="contact-form-container">
-                <form class="contact-form" onsubmit="event.preventDefault(); alert('Vielen Dank! We have received your appointment request and will contact you shortly.');">
-                    <div class="form-row">
-                        <div class="form-group">
-                            <label for="name">Patient Name</label>
-                            <input type="text" id="name" required placeholder="John Doe">
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email Address</label>
-                            <input type="email" id="email" required placeholder="john@example.com">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="phone">Phone Number</label>
-                        <input type="tel" id="phone" required placeholder="z.B. +880 170 1234567">
-                    </div>
-                    <div class="form-group">
-                        <label for="service">Requested Treatment</label>
-                        <select id="service">
-                            <option>Preventative Checkup & Clean</option>
-                            <option>Cosmetic Teeth Whitening</option>
-                            <option>Laser Dental Treatment</option>
-                            <option>Wisdom Teeth / Minor Surgery</option>
-                            <option>Root Canal / Restorations</option>
-                            <option>Other / Consultation</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label for="message">Describe Your Concern</label>
-                        <textarea id="message" rows="4" placeholder="Briefly describe your symptoms or dental goals..."></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary btn-block">Send Booking Request</button>
-                </form>
+            <div class="map-block scroll-reveal">
+                <!-- Embedded Google Map -->
+                <div class="map-container">
+                    <iframe src="https://maps.google.com/maps?q=28.5369095,77.255294&hl=en&z=15&output=embed" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <!-- Directions CTA -->
+                <a href="https://www.google.com/maps/dir/?api=1&destination=28.5369095,77.255294" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="width: 100%;">
+                    🗺️ Get Driving Directions on Google Maps
+                </a>
+                <a href="https://maps.app.goo.gl/35v3pT4x7XC9PjFA9" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="width: 100%;">
+                    ⭐ View Google Business Profile
+                </a>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer class="footer">
-        <div class="container footer-content">
-            <p>&copy; 2026 Ratan's Dental. All Rights Reserved. | <a href="#about">Impressum</a> | <a href="#about">Datenschutz</a></p>
+    <footer>
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <h3>
+                    <svg viewBox="0 0 24 24"><path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM19 18H6c-2.21 0-4-1.79-4-4 0-2.05 1.53-3.76 3.56-3.97l1.07-.11.5-.95C8.08 7.14 9.94 6 12 6c2.62 0 48 1.86 5.39 4.43l.3 1.5 1.53.11c1.56.1 2.78 1.41 2.78 2.96 0 1.65-1.35 3-3 3z"/></svg>
+                    Ratan's Dental
+                </h3>
+                <p>Providing custom-tailored cosmetic dentistry, tooth restorations, periodontics, and implant placements with a focus on hygiene and patient convenience.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#doctors">Doctors</a></li>
+                    <li><a href="#reviews">Reviews</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Information</h4>
+                <ul>
+                    <li><a href="#contact">Contact Us</a></li>
+                    <li><a href="https://maps.app.goo.gl/35v3pT4x7XC9PjFA9" target="_blank">Google Maps Profile</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <p>&copy; 2026 Ratan's Dental. All rights reserved.</p>
+            <p>Demo Website for Pitch Presentation</p>
         </div>
     </footer>
 
+    <script src="../assets/script.js"></script>
 </body>
 </html>
